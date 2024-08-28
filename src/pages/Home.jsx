@@ -1,18 +1,17 @@
 import { NavLink } from 'react-router-dom';
 import './Home.css'
-import logos from './img/Logo.png'
-import girl from './img/Mask group.png'
-import girl1 from './img/Mask group (1).png'
-import logo1 from './img/message-programming.png'
-import logo2 from './img/briefcase (1).png'
-import logo3 from './img/status-up.png'
-import logo4 from './img/star.png'
-import logo5 from './img/24-support.png'
-import logo6 from './img/coin.png'
-import logo7 from './img/image 12 (2).png'
-import logo8 from './img/user-search.png'
-import logo9 from './img/Image.png'
-
+import logos from "./img/Logo.png";
+import girl from "./img/Mask group.png";
+import girl1 from "./img/Mask group (1).png";
+import logo1 from './img/message-programming.png';
+import logo2 from './img/briefcase (1).png';
+import logo3 from './img/status-up.png';
+import logo4 from './img/star.png';
+import logo5 from './img/24-support.png';
+import logo6 from './img/coin.png';
+import logo7 from './img/image 12 (2).png';
+import logo8 from './img/user-search.png';
+import logo9 from './img/Image.png';
 
 
 
