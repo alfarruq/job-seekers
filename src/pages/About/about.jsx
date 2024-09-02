@@ -1,21 +1,28 @@
-import './about.css';
-import writer from '../assets/writer.png';
-import office from '../assets/office.png';
-import man from '../assets/man.png';
-import google from '../assets/google.png';
-import microsoft from '../assets/microsoft.png';
-import airbnb from '../assets/airbnb.png';
-import pinterest from '../assets/pinterest.png';
+import "./about.css";
+import writer from "../About/assets/writer.png";
+import office from "../About/assets/office.png";
+import man from "../About/assets/man.png";
+import google from "../About/assets/google.png";
+import microsoft from "../About/assets/microsoft.png";
+import airbnb from "../About/assets/airbnb.png";
+import pinterest from "../About/assets/pinterest.png";
+
 function AboutPage() {
   return (
     <div className="App">
       <section className="about-us">
         <div className="about-text">
           <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id tincidunt malesuada pharetra arcu turpis cursus mattis fringilla. Quam enim mi faucibus purus, nec turpis mus at odio. Morbi fringilla diam, diam elit, et risus. Sed purus, aliquet vel ut ipsum consectetur a turpis.</p>
-          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id
+            tincidunt malesuada pharetra arcu turpis cursus mattis fringilla.
+            Quam enim mi faucibus purus, nec turpis mus at odio. Morbi fringilla
+            diam, diam elit, et risus. Sed purus, aliquet vel ut ipsum
+            consectetur a turpis.
+          </p>
+
           <button className="join-button">Join Now</button>
-          
+
         </div>
         <div className="about-images">
           <img src={writer} alt="Image 1" />
@@ -36,7 +43,7 @@ function AboutPage() {
       </section>
 
       <section className="our-numbers">
-        <h3>Our numbers</h3>
+        <h3>Our numbers:</h3>
         <div className="stats">
           <div className="stat-card">
             <h4>20,583+</h4>
@@ -60,11 +67,17 @@ function AboutPage() {
       <section className="testimonials">
         <h3>Trusted by leading brands and startups</h3>
         <div className="testimonial-card">
-          <p>“One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”</p>
+          <p>
+            “One of the advantages of utilizing freelancers is finding talent
+            with different skills quickly as our needs change.”
+          </p>
           <span>- Davis Rosser, Director of Content Experience</span>
         </div>
         <div className="testimonial-card">
-          <p>“Ngull enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”</p>
+          <p>
+            “Ngull enables us to differentiate ourselves from our competitors
+            and produce content at a higher caliber.”
+          </p>
           <span>- Tiana Geidt, Director of Content Experience</span>
         </div>
       </section>
