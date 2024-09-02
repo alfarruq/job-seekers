@@ -1,11 +1,11 @@
 import './about.css';
-import writer from '../assets/writer.png';
-import office from '../assets/office.png';
-import man from '../assets/man.png';
-import google from '../assets/google.png';
-import microsoft from '../assets/microsoft.png';
-import airbnb from '../assets/airbnb.png';
-import pinterest from '../assets/pinterest.png';
+import writer from '../../assets/writer.png';
+import office from '../../assets/office.png';
+import man from '../../assets/man.png';
+import google from '../../assets/google.png';
+import microsoft from '../../assets/microsoft.png';
+import airbnb from '../../assets/airbnb.png';
+import pinterest from '../../assets/pinterest.png';
 function AboutPage() {
   return (
     <div className="App">
