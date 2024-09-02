@@ -7,6 +7,8 @@ import AboutPage from "./pages/About/about";
 import BlogPage from "./pages/Blog/blog";
 import ComunityPage from "./pages/Community/community";
 import ClieantsPage from "./pages/Clients/clieants";
+import FindJob from "./pages/FindJob/findjob";
+import SignIn from "./pages/SignUp/signIn";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/community" element={<ComunityPage />} />
         <Route path="/clieants" element={<ClieantsPage />} />
+        <Route path="/findJob" element={<FindJob />} />
+        <Route path="/signin" element={<SignIn />} />
         <Route path="*" element={<h1 className="container" >Not Found</h1>} />
       </Routes>
       <Footer />
