@@ -1,7 +1,7 @@
 
 import "./find.css";
 import img from "../../../src/assets/Ellipse 1.png";
-import Card from "../../components/Card/card";
+import Card from "../../components/cardFindJob/card";
 import Googllee from "../../assets/Googlee.png";
 import Figma from "../../assets/Figma.png";
 
