@@ -1,0 +1,13 @@
+.card{
+    width: 376px;
+    height: 438px;
+    border-radius: 16px;
+   cursor: pointer;
+}
+.card h3{
+    padding: 14px 16px;
+}
+.card p{
+    padding: 6px 16px;
+
+}
