@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a.active{
+    color: blue;
+}
