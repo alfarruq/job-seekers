@@ -1,0 +1,52 @@
+.card {
+    width: 468px;
+    height: 392px;
+    padding: 24px 24px;
+    gap: 24px;
+    border-radius: 16px;
+    opacity: 0px;
+    
+    background-color: white;
+}
+
+.bigp{
+    margin-top: 16px;
+}
+
+.buttons-3{
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+}
+
+.buttonn {
+    width: 97px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    color: rgba(174, 174, 178, 1);
+}
+
+.buttonnnn {
+    width: 135px;
+    height: 32px; 
+    border-radius: 20px;
+    border: none;
+    color: rgba(174, 174, 178, 1);
+
+}
+
+.buttonnn {
+    width: 99px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    color: rgba(174, 174, 178, 1);
+
+
+}
+
+.name-gr {
+    color: rgba(72, 100, 225, 1);
+    margin-top: 4px;
+}
