@@ -3,7 +3,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 120px;
-    background: #021638;
+    /* background: #021638; */
+    background-color: rgba(249, 249, 251, 1);
+    border-bottom: 1px solid rgba(233, 235, 237, 1);
 
 }
 
@@ -33,7 +35,7 @@ header button:hover {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-weight: 500;
     font-size: 16px;
 }

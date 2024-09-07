@@ -3,21 +3,16 @@
     height: 985px;
     border: 1px solid rgba(233, 235, 237, 1);
     border-width: 1px 1px 0px 1px;
-
-    
-
-    
-
-
 }
 
-main {
+.main-9 {
     display: flex;
     gap: 32px;
     background-color: rgba(249, 249, 251, 1);
 }
 
-.cards {
+
+.cards2{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
