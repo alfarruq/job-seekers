@@ -100,10 +100,15 @@
 }
 
 .about-images img {
+  transition: transform 0.3s ease, filter 0.3s ease;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+.about-images img:hover {
+  transform: scale(1.1);
+  filter:  brightness(1.2);
 }
 
 .about-images img:nth-child(1) {
@@ -120,7 +125,13 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
-
+.number-card img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.number-card img:hover {
+  transform: scale(1.1);
+  filter: hue-rotate(180deg) brightness(1.2);
+}
 .logos img {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -151,56 +162,59 @@
 .our-numbers {
   text-align: center;
   margin-bottom: 50px;
+  padding: 40px 20px;
 }
 
-.our-numbers h3 {
-  padding: 100px;
-  font-size: 2em;
-  margin-bottom: 30px;
+.numbers__title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.numbers__subtitle {
+  font-size: 1.2em;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.numbers__cards {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.number-card:hover {
+  transform: scale(1.1);
+  filter:  brightness(1.2);
+}
+.number-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+.icon-container {
+  
+  font-size: 30px;
+  color: #4864e1;
+  margin-bottom: 15px;
+}
+
+.number-card h3 {
+  font-size: 1.8em;
   color: #333;
 }
 
-.stat-card {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+.number-card h3 span {
+  font-size: 0.8em;
+  vertical-align: top;
 }
 
-.stat-card:hover {
-  transform: scale(1.1);
-  background-color: #007bff;
-  color: #fff;
-}
-
-.stats {
-  cursor: pointer;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 42px;
-}
-
-.stat-card {
-  cursor: pointer;
-  background-color: #f7f7f7;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  flex: 1;
-  max-width: 200px;
-  max-height: 200px;
-}
-
-.stat-card h4 {
-  font-size: 1.8em;
-  color: #1e90ff;
-  margin-bottom: 10px;
-}
-
-.stat-card p {
+.number-card p {
   font-size: 1.1em;
   color: #555;
 }
@@ -273,28 +287,27 @@
 }
 
 .comment-card p {
-  
   font-style: italic;
 }
 .numbers {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding: 40px;  
-  gap: 20px;  
-  width: 100%; 
+  padding: 40px;
+  gap: 20px;
+  width: 100%;
 }
 .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  color: #4864e1; 
-  margin-bottom: 10px; 
+  color: #4864e1;
+  margin-bottom: 10px;
 }
 
-.our-numbers{
+.our-numbers {
   padding: 100px;
 }
 .numbers__title {
@@ -304,11 +317,11 @@
   font-weight: 500;
   line-height: 56px;
   letter-spacing: 0.005em;
-  text-align: center; 
+  text-align: center;
   color: #000;
 }
-.numbers__subtitle p{
-text-align: center;
+.numbers__subtitle p {
+  text-align: center;
 }
 .numbers__subtitle {
   font-family: sans-serif;
@@ -316,15 +329,14 @@ text-align: center;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.005em;
-  text-align: center; 
+  text-align: center;
   color: #000;
-  
 }
 
 .numbers__cards {
   display: flex;
-  justify-content: center; 
-  flex-wrap: wrap; 
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -351,8 +363,8 @@ text-align: center;
 
 .number__content {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
 }
 
 .number__content h3 {
@@ -361,7 +373,7 @@ text-align: center;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0.005em;
-  text-align: center; 
+  text-align: center;
 }
 
 .number__content p {
@@ -370,7 +382,7 @@ text-align: center;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0.005em;
-  text-align: center; 
+  text-align: center;
   color: #4864e1;
 }
 
@@ -383,5 +395,3 @@ text-align: center;
   text-align: center;
   color: #000;
 }
-
-
