@@ -1,3 +1,5 @@
+
+
 import "../Card/card.css";
 
 function Card({ item }) {
@@ -15,3 +17,4 @@ function Card({ item }) {
 }
 
 export default Card;
+

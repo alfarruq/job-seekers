@@ -1,0 +1,70 @@
+.divs{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: General Sans;
+font-size: 48px;
+font-weight: 500;
+line-height: 56px;
+letter-spacing: 0.005em;
+text-align: center;
+
+}
+.div2{
+    background: #4864E1;
+
+color: white;
+padding: 50px;
+
+}
+.divs2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+
+}
+.button{
+    width: 100px;
+    height:  32px;
+    padding: 4px 12px 4px 12px;
+    gap: 8px;
+    border-radius: 16px 0px 0px 0px;
+    /* border: 1px 0px 0px 0px; */
+    background-color: white;
+    color: blue;
+
+    
+}
+.div33{
+    width: 791px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10PX;
+}
+.divsss{
+    display: flex;
+    gap: 20px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.moderator{
+    position: relative;
+    left: 50px;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    gap: 10PX;
+}
