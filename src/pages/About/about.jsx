@@ -31,7 +31,7 @@ function AboutPage() {
   const numbers = [
     {
       id: 0,
-      icon: <i className="fa fa-shopping-bag"></i>,
+      icon: <i className="fa fa-briefcase"></i>,
       value: "20,583",
       name: "Job Posted",
     },
@@ -43,13 +43,13 @@ function AboutPage() {
     },
     {
       id: 2,
-      icon: <i className="fa fa-shield"></i>,
+      icon: <i className="fa fa-check-circle"></i>,
       value: "581",
       name: "Verified companies",
     },
     {
       id: 3,
-      icon: <i className="fa fa-users"></i>,
+      icon: <i className="fa fa-chart-bar"></i>,
       value: "100K",
       name: "Monthly visits",
     },
